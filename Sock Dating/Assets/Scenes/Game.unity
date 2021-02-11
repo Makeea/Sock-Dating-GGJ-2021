@@ -9122,24 +9122,48 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
       propertyPath: portraits.Array.size
-      value: 4
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
       propertyPath: portraits.Array.data[0]
       value: 
-      objectReference: {fileID: 21300000, guid: 04181db6802054b5a8aca5896fd51209, type: 3}
+      objectReference: {fileID: 21300000, guid: 4b9e2238ae5f47d4084b4469b7218bce, type: 3}
     - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
       propertyPath: portraits.Array.data[1]
       value: 
-      objectReference: {fileID: 21300000, guid: 2a7c2adb394f949e0a18b18f3d6c80e5, type: 3}
+      objectReference: {fileID: 21300000, guid: bccfa54f05a35064098fd15df2d70242, type: 3}
     - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
       propertyPath: portraits.Array.data[2]
       value: 
-      objectReference: {fileID: 21300000, guid: 1c8f5a5aef77040f28ee79d1221105f1, type: 3}
+      objectReference: {fileID: 21300000, guid: d5ea2969df0253f4fa0270b65f0ea19e, type: 3}
     - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
       propertyPath: portraits.Array.data[3]
       value: 
+      objectReference: {fileID: 21300000, guid: 04181db6802054b5a8aca5896fd51209, type: 3}
+    - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
+      propertyPath: portraits.Array.data[4]
+      value: 
+      objectReference: {fileID: 21300000, guid: 9aee38a270df1444ca0f9e618f7a6f94, type: 3}
+    - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
+      propertyPath: portraits.Array.data[5]
+      value: 
+      objectReference: {fileID: 21300000, guid: f95b3c08c70de5243a588ef7335ef832, type: 3}
+    - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
+      propertyPath: portraits.Array.data[6]
+      value: 
+      objectReference: {fileID: 21300000, guid: 73c008bbc4dd1954682fe931eb52927e, type: 3}
+    - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
+      propertyPath: portraits.Array.data[7]
+      value: 
+      objectReference: {fileID: 21300000, guid: ba39c0e7e50b8354f8eb665b8e15896a, type: 3}
+    - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
+      propertyPath: portraits.Array.data[8]
+      value: 
       objectReference: {fileID: 21300000, guid: 6688ba12bfaa14e2bb6143e0947fb1eb, type: 3}
+    - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
+      propertyPath: portraits.Array.data[9]
+      value: 
+      objectReference: {fileID: 21300000, guid: 649bdd855e08e8f429053d354b62a57e, type: 3}
     - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
       propertyPath: translatedName.Array.size
       value: 1
@@ -9423,9 +9447,8 @@ MonoBehaviour:
     width: 0
     height: 0
   selectedBlocks:
-  - {fileID: 768043184}
-  selectedCommands:
-  - {fileID: 768043332}
+  - {fileID: 768043205}
+  selectedCommands: []
   variables:
   - {fileID: 768043138}
   - {fileID: 768043246}
@@ -17066,7 +17089,7 @@ MonoBehaviour:
   setSayDialog: {fileID: 0}
 --- !u!114 &768043332
 MonoBehaviour:
-  m_ObjectHideFlags: 0
+  m_ObjectHideFlags: 2
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
@@ -17903,7 +17926,7 @@ MonoBehaviour:
     I'll need some time to think about it though. So come back and see me later.
   description: 
   character: {fileID: 758136387}
-  portrait: {fileID: 21300000, guid: 04181db6802054b5a8aca5896fd51209, type: 3}
+  portrait: {fileID: 21300000, guid: 6688ba12bfaa14e2bb6143e0947fb1eb, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -17926,7 +17949,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   version: 1
-  scrollPos: {x: 191.11247, y: 764.4358}
+  scrollPos: {x: 149.77852, y: 489.40442}
   variablesScrollPos: {x: 0, y: 0}
   variablesExpanded: 1
   blockViewHeight: 400
@@ -17937,8 +17960,7 @@ MonoBehaviour:
     y: 0
     width: 0
     height: 0
-  selectedBlocks:
-  - {fileID: 834134874}
+  selectedBlocks: []
   selectedCommands: []
   variables:
   - {fileID: 834134859}
@@ -18057,7 +18079,7 @@ MonoBehaviour:
     am I right?
   description: 
   character: {fileID: 758136387}
-  portrait: {fileID: 21300000, guid: 04181db6802054b5a8aca5896fd51209, type: 3}
+  portrait: {fileID: 21300000, guid: ba39c0e7e50b8354f8eb665b8e15896a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -18111,7 +18133,7 @@ MonoBehaviour:
   storyText: She tries to smile, but it's obviously not sincere.
   description: 
   character: {fileID: 758136387}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: ba39c0e7e50b8354f8eb665b8e15896a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -18139,7 +18161,7 @@ MonoBehaviour:
     the sock that's right for you. Take care.
   description: 
   character: {fileID: 758136387}
-  portrait: {fileID: 21300000, guid: 04181db6802054b5a8aca5896fd51209, type: 3}
+  portrait: {fileID: 21300000, guid: ba39c0e7e50b8354f8eb665b8e15896a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -18178,8 +18200,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 301.52457
-    y: -620.1289
+    x: 303.11435
+    y: -621.7187
     width: 84.9749
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -18208,8 +18230,8 @@ MonoBehaviour:
   storyText: She walks away, swinging her hips without a care in the world. I really
     hope I made the right choice.
   description: 
-  character: {fileID: 758136387}
-  portrait: {fileID: 21300000, guid: 04181db6802054b5a8aca5896fd51209, type: 3}
+  character: {fileID: 0}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -18236,7 +18258,7 @@ MonoBehaviour:
   storyText: Oh... I see.
   description: 
   character: {fileID: 758136387}
-  portrait: {fileID: 21300000, guid: 04181db6802054b5a8aca5896fd51209, type: 3}
+  portrait: {fileID: 21300000, guid: ba39c0e7e50b8354f8eb665b8e15896a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -18260,7 +18282,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 325.11334
+    x: 323.52356
     y: 173.51303
     width: 107.23164
     height: 40
@@ -18327,7 +18349,7 @@ MonoBehaviour:
     to see me, okay?
   description: 
   character: {fileID: 758136387}
-  portrait: {fileID: 21300000, guid: 04181db6802054b5a8aca5896fd51209, type: 3}
+  portrait: {fileID: 21300000, guid: bccfa54f05a35064098fd15df2d70242, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -18381,7 +18403,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 839.2523
-    y: 173.58244
+    y: 171.99268
     width: 237.59262
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -18632,8 +18654,8 @@ MonoBehaviour:
   indentLevel: 0
   storyText: 'You: Just so you know though, the reason I''m acting like this is because...'
   description: 
-  character: {fileID: 758136387}
-  portrait: {fileID: 21300000, guid: 04181db6802054b5a8aca5896fd51209, type: 3}
+  character: {fileID: 1255943089}
+  portrait: {fileID: 0}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -18686,7 +18708,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 790.61743
-    y: -108.64908
+    y: -107.05931
     width: 205.79727
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -18770,7 +18792,7 @@ MonoBehaviour:
     you're it.
   description: 
   character: {fileID: 758136387}
-  portrait: {fileID: 21300000, guid: 04181db6802054b5a8aca5896fd51209, type: 3}
+  portrait: {fileID: 21300000, guid: f95b3c08c70de5243a588ef7335ef832, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -19049,7 +19071,7 @@ MonoBehaviour:
   storyText: You're really something else, you know that?
   description: 
   character: {fileID: 758136387}
-  portrait: {fileID: 21300000, guid: 2a7c2adb394f949e0a18b18f3d6c80e5, type: 3}
+  portrait: {fileID: 21300000, guid: 6688ba12bfaa14e2bb6143e0947fb1eb, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -19309,8 +19331,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 604.1404
-    y: -469.93552
+    x: 607.31995
+    y: -466.75595
     width: 97.69304
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -19339,8 +19361,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 167.10748
-    y: -384.93408
+    x: 144.85074
+    y: -410.3706
     width: 150.1554
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -19408,7 +19430,7 @@ MonoBehaviour:
     hopelessly falling...
   description: 
   character: {fileID: 758136387}
-  portrait: {fileID: 21300000, guid: 04181db6802054b5a8aca5896fd51209, type: 3}
+  portrait: {fileID: 21300000, guid: 6688ba12bfaa14e2bb6143e0947fb1eb, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -19618,7 +19640,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 500.2033
+    x: 498.61353
     y: -568.24
     width: 78.61582
     height: 40
@@ -19654,7 +19676,7 @@ MonoBehaviour:
   storyText: ...Wait what?
   description: 
   character: {fileID: 758136387}
-  portrait: {fileID: 0}
+  portrait: {fileID: 21300000, guid: d5ea2969df0253f4fa0270b65f0ea19e, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -19678,8 +19700,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 306.79715
-    y: -264.38742
+    x: 308.38693
+    y: -265.9772
     width: 223.28471
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -19817,7 +19839,7 @@ MonoBehaviour:
     get. But I can't of like it if I'm being honest.
   description: 
   character: {fileID: 758136387}
-  portrait: {fileID: 21300000, guid: 04181db6802054b5a8aca5896fd51209, type: 3}
+  portrait: {fileID: 21300000, guid: ba39c0e7e50b8354f8eb665b8e15896a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -19951,7 +19973,7 @@ MonoBehaviour:
     No, wait!'
   description: 
   character: {fileID: 758136387}
-  portrait: {fileID: 21300000, guid: 2a7c2adb394f949e0a18b18f3d6c80e5, type: 3}
+  portrait: {fileID: 21300000, guid: ba39c0e7e50b8354f8eb665b8e15896a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -20062,7 +20084,7 @@ MonoBehaviour:
     She seems skeptical.'
   description: 
   character: {fileID: 758136387}
-  portrait: {fileID: 21300000, guid: 1c8f5a5aef77040f28ee79d1221105f1, type: 3}
+  portrait: {fileID: 21300000, guid: f95b3c08c70de5243a588ef7335ef832, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -20168,7 +20190,7 @@ MonoBehaviour:
   storyText: She winks at me.
   description: 
   character: {fileID: 758136387}
-  portrait: {fileID: 21300000, guid: 6688ba12bfaa14e2bb6143e0947fb1eb, type: 3}
+  portrait: {fileID: 21300000, guid: 649bdd855e08e8f429053d354b62a57e, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -20195,7 +20217,7 @@ MonoBehaviour:
   storyText: Hehe, cute. But I'm not that easy, you know.
   description: 
   character: {fileID: 758136387}
-  portrait: {fileID: 21300000, guid: 04181db6802054b5a8aca5896fd51209, type: 3}
+  portrait: {fileID: 21300000, guid: 6688ba12bfaa14e2bb6143e0947fb1eb, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -20219,8 +20241,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodeRect:
     serializedVersion: 2
-    x: 144.68217
-    y: -163.20663
+    x: 90.63008
+    y: -171.15547
     width: 240
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -20334,7 +20356,7 @@ MonoBehaviour:
   storyText: Ooooh is that right?
   description: 
   character: {fileID: 758136387}
-  portrait: {fileID: 21300000, guid: 2a7c2adb394f949e0a18b18f3d6c80e5, type: 3}
+  portrait: {fileID: 21300000, guid: 6688ba12bfaa14e2bb6143e0947fb1eb, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -20448,7 +20470,7 @@ MonoBehaviour:
     of sport socks, no less. I know. But I was young and immature.
   description: 
   character: {fileID: 758136387}
-  portrait: {fileID: 21300000, guid: 04181db6802054b5a8aca5896fd51209, type: 3}
+  portrait: {fileID: 21300000, guid: ba39c0e7e50b8354f8eb665b8e15896a, type: 3}
   voiceOverClip: {fileID: 0}
   showAlways: 1
   showCount: 1
@@ -20528,7 +20550,7 @@ MonoBehaviour:
   nodeRect:
     serializedVersion: 2
     x: 506.63647
-    y: -6.4824944
+    y: -8.072263
     width: 223.28471
     height: 40
   tint: {r: 1, g: 1, b: 1, a: 1}
@@ -24477,7 +24499,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 61dddfdc5e0e44ca298d8f46f7f5a915, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  selectedFlowchart: {fileID: 768043120}
+  selectedFlowchart: {fileID: 2064822486}
 --- !u!4 &1621777838
 Transform:
   m_ObjectHideFlags: 1
@@ -25171,7 +25193,7 @@ PrefabInstance:
     - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
       propertyPath: portraits.Array.data[0]
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 21300000, guid: 40bf3e7ec73d14cf59da82366192fbb3, type: 3}
     - target: {fileID: 11400000, guid: b20518d45890e4be59ba82946f88026c, type: 3}
       propertyPath: portraits.Array.data[1]
       value: 
